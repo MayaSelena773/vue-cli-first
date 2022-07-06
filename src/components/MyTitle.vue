@@ -3,8 +3,6 @@
 </template>
 
 <script>
-import MyTitle from './components/MyTitle.vue'
-
 export default {
   name: 'MyTitle',
   components: {
@@ -13,7 +11,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 h1 {
     color: blueviolet
